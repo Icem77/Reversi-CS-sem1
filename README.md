@@ -12,13 +12,13 @@ Exceptions to the original rules:
 🎲 A player can resign from making a move even if they can make a legal move.
 🎲 The game does not end automatically when neither player has a legal move available.
 
-🎲 Input:
+🎲 INPUT:
 Players' commands occupying one line each. All commands have a correct form and end with the representation of the end of the line '\n'. Move execution commands indicate a legal move. After the game interruption command, there can be any text, ignored by the program.
 The game interruption command is represented by a line with the content '='.
 The resignation from move command is represented by a line with the content '-'.
 The move execution command is represented by a line with the name of the field.
 
-🎲 Output:
+🎲 OUTPUT:
 The program output is a sequence of prompt texts. Each of them occupies one line and ends with the representation of the end of the line '\n'.
 The prompt text starts with an indication of the player to whom the move belongs, the 'C' character indicates the Black player, and the 'B' character indicates the White player.
 The rest of the prompt text consists of a sequence of field names on which the player can place their pawn.
